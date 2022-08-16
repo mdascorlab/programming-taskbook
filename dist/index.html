@@ -6,21 +6,25 @@
 	      name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 	<link href="index.css" rel="stylesheet">
-	<script src="sum.js" type="module" defer></script>
-	<script src="index.js" type="module" defer></script>
+	<script defer src="sum.js" type="module"></script>
+	<script defer src="index.js" type="module"></script>
 	<title>Test</title>
 </head>
 <body>
-	<div id="global-wrapper">
-		<div id="wrapper">
-			<div id="description">
-				Problem description
-			</div>
-			<input autocomplete="off" id="main-input" name="main-input" placeholder="Type here" type="text">
-			<div id="main-output">
-			
-			</div>
+<div id="global-wrapper">
+	<div id="wrapper">
+		<div id="description">
+			Write an integer function RootCount(A, B, C) that returns the amount of roots of the quadratic equation A·x2 +
+			B·x + C = 0 (A, B, C are real-valued parameters, A ≠ 0). Using this function, find the amount of roots for each
+			of three quadratic equations with given coefficients. Note that the amount of roots is determined by the value
+			of a discriminant:
+			D = B2 − 4·A·C.
+		</div>
+		<input autocomplete="off" id="main-input" name="main-input" placeholder="Format: a,b,c" type="text">
+		<div id="main-output">
+		
 		</div>
 	</div>
+</div>
 </body>
 </html>
