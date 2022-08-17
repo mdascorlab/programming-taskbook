@@ -6,21 +6,23 @@
 	      name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 	<link href="index.css" rel="stylesheet">
-	<script src="sum.js" type="module" defer></script>
-	<script src="index.js" type="module" defer></script>
+	<script defer src="TriangleP.js" type="module"></script>
+	<script defer src="index.js" type="module"></script>
 	<title>Test</title>
 </head>
 <body>
-	<div id="global-wrapper">
-		<div id="wrapper">
-			<div id="description">
-				Problem description
-			</div>
-			<input autocomplete="off" id="main-input" name="main-input" placeholder="Type here" type="text">
-			<div id="main-output">
-			
-			</div>
+<div id="global-wrapper">
+	<div id="wrapper">
+		<div id="description">
+			Write a real-valued function TriangleP(a, h) that returns the perimeter of an isosceles triangle with given
+			base a and altitude h (a and h are real numbers). Using this function, find the perimeters of three triangles
+			with given bases and altitudes. Note that the leg b of an isosceles triangle can be found by the Pythagorean
+			theorem:
+			b2 = (a/2)2 + h2.
 		</div>
+		<input autocomplete="off" id="main-input" name="main-input" placeholder="Format: a,h" type="text">
+		<div id="main-output"></div>
 	</div>
+</div>
 </body>
 </html>

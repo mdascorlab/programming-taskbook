@@ -44,8 +44,10 @@ body {
 }
 #global-wrapper #wrapper #description {
   position: relative;
-  font-size: 0.8rem;
+  margin: 0 auto;
   top: -100px;
+  max-width: 80%;
+  font-size: 0.8rem;
 }
 
 /*# sourceMappingURL=index.css.map */
