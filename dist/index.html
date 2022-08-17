@@ -6,21 +6,23 @@
 	      name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 	<link href="index.css" rel="stylesheet">
-	<script src="sum.js" type="module" defer></script>
-	<script src="index.js" type="module" defer></script>
+	<script defer src="Fib.js" type="module"></script>
+	<script defer src="index.js" type="module"></script>
 	<title>Test</title>
 </head>
 <body>
-	<div id="global-wrapper">
-		<div id="wrapper">
-			<div id="description">
-				Problem description
-			</div>
-			<input autocomplete="off" id="main-input" name="main-input" placeholder="Type here" type="text">
-			<div id="main-output">
-			
-			</div>
+<div id="global-wrapper">
+	<div id="wrapper">
+		<div id="description">
+			Write an integer function Fib(N) that returns the value of N-th term of the sequence of the Fibonacci numbers.
+			The Fibonacci numbers FK are defined as follows:
+			F<sub>1</sub> = 1, F<sub>2</sub> = 1, F<sub>k</sub> = F<sub>k-2</sub> + F<sub>k-1</sub>, K = 3, 4, … .
+			Using this function, find five Fibonacci numbers with given order numbers N<sub>1</sub>, N<sub>2</sub>, …,
+			N<sub>5</sub>.
 		</div>
+		<input autocomplete="off" id="main-input" name="main-input" placeholder="Type here" type="text">
+		<div id="main-output"></div>
 	</div>
+</div>
 </body>
 </html>
