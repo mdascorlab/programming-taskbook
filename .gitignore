@@ -1,1 +1,2 @@
 node_modules
+# add dist and .idea to git ignore
