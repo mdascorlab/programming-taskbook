@@ -25,6 +25,3 @@ describe('Sign works properly', () => {
 	
 	test('1 for more than 0', () => {
 		expect(sign(10)).toBe(1)
-	})
-	
-})
