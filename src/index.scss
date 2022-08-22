@@ -1,16 +1,15 @@
-:root {
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #95AFC0;
 	font-size: 18px;
 	font-family: sans-serif, serif;
 	font-weight: 300;
 	color: #333;
 }
 
-body {
-	margin: 0;
-	padding: 0;
-	background-color: #95AFC0;
-}
 
+// TODO use bem class names
 #global-wrapper {
 	position: relative;
 	width: 100%;
